@@ -1,12 +1,12 @@
 ﻿$ErrorActionPreference = 'Stop';
 $toolsDir = Split-Path -parent $MyInvocation.MyCommand.Definition
-$folder = 'kse-542'
+$folder = 'kse-544'
 
 $packageArgs = @{
     packageName = $env:ChocolateyPackageName
     unzipLocation = $toolsDir
-    url = 'https://github.com/kaikramer/keystore-explorer/releases/download/v5.4.2/kse-542.zip'
-    checksum = '5ff6c4081483f360b600662f14b99bd050e72f279110bdc216608273e3a89446'
+    url = 'https://github.com/kaikramer/keystore-explorer/releases/download/v5.4.4/kse-544.zip'
+    checksum = '1b7f97ca99fdd4fd095d35b5091d8228fd55ec2cdcd5bac3efd3be199b5ba0f0'
     checksumType = 'sha256'
 }
 
